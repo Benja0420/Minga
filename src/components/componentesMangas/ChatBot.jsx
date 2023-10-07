@@ -72,7 +72,7 @@ export default function Chatbot() {
     }
 
     return (
-        <div className={`fixed bottom-2 hidden z-50 lg:block right-2 ${chatOpen ? 'w-96' : 'w-12'}`}>
+        <div className={`fixed bottom-2 hidden lg:block right-2 ${chatOpen ? 'w-96' : 'w-12'}`}>
             {/* Renderiza el icono del chat */}
             <ChatIcon onClick={toggleChat} isVisible={chatOpen} />
 
