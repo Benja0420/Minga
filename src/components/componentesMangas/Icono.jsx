@@ -1,10 +1,10 @@
-import icon from "public/img/icon.webp"
+
 
 const ChatIcon = ({ onClick, isVisible }) => {
     return (
 
-        <div className={`chat-icon z-50 ${isVisible ? 'hidden' : ''}`} onClick={onClick}>
-            <img src={icon} alt="" />
+        <div className={`chat-icon z-50 h-12 w-12 bg-blue-500 ${isVisible ? 'hidden' : ''}`} onClick={onClick}>
+
         </div>
     );
 };
