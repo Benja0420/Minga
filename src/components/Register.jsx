@@ -112,22 +112,22 @@ const Register = () => {
             <p>Discover manga, manhua and manhwa, track your progress, have fun, read manga.</p>
             <input
               type="email"
-              className=''
+              className="h-10 w-1/2 p-2 bg-white border shadow-sm placeholder-slate-400 rounded-md "
               placeholder='DragonballZ@Krowl.com'
               value={email}
               onChange={handleEmailChange}
             />
             <input
               type="url"
-              className=''
+              className="h-10 w-1/2 p-2 bg-white border shadow-sm placeholder-slate-400 rounded-md "
               placeholder='Url'
               value={photo}
               onChange={handleUrlChange}
             />
             <input
               type="password"
-              className=''
-              placeholder='●●●●●●●●●●●●●'
+              className="h-10 w-1/2 p-2 bg-white border shadow-sm placeholder-slate-400 rounded-md "
+              placeholder="hola1234"
               value={password}
               onChange={handlePasswordChange}
             />
