@@ -27,7 +27,7 @@ const MyMangas = () => {
 
   useEffect(() => {
     dispatch(mymangas());
-    /* axios
+    axios
       .get(`https://backendminga.onrender.com/mangas/me`, {
         headers: { authorization: `Bearer ${token}` },
       })
@@ -41,7 +41,7 @@ const MyMangas = () => {
         setMangas(res.data.mangas);
         console.log(res)
       })
-      .catch((err) => console.log(err)); */
+      .catch((err) => console.log(err));
 
   }, [token, dispatch]);
 
