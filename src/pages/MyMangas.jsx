@@ -55,7 +55,7 @@ const MyMangas = () => {
         <div className="flex min-h-[80vh] flex-wrap justify-center items-center">
           <NewManga />
 
-          {(!mangasList || mangasList.length === 0) ? (<div>nO HAY MANGAS</div>) : (
+          {(!mangasList || mangasList.length === 0) ? (<div>not find mangas</div>) : (
             mangasList.map((manga) => (
               <div
                 className="bg-white relative w-[290px] h-[160px] lg:w-[420px] lg:h-[210px] m-3 flex justify-between items-center rounded-lg drop-shadow-md"
